@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width:device-width, initial-scale:1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Product landing page</title>
+    </head>
+    <body>
+        <header id="header">
+            <img src="image-1.jpg" id="header-img">
+            <nav id="nav-bar">
+                <ul id="nav-list">
+                    <li><a href="#video-section" class="nav-link">Watch a video</a></li>
+                    <li><a href="#text-section" class="nav-link">How are plumbuses made?</a></li>
+                    <li><a href="#plumbus-section" class="nav-link">Plumbus gallery</a></li>
+                    <li><a href="#form-section" class="nav-link">Get your plumbus!</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="video-section">
+                <div class="card-title">
+                    <h2>Everyone has a plumbus</h2>
+                </div>
+                <div class="card-content">
+                    <iframe id="video" src="https://www.youtube.com/embed/eMJk4y9NGvE?si=aInuya6nAQKX1nF1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section id="text-section">
+                <div class="card-title">
+                    <h2>How it's made</h2>
+                </div>
+                <div class="card-content">
+                    <p>We start making a Plumbus by rolling out the dinglebop and then adding the schleem. You'll notice there isn't any schleem in our plumbuses though, we remove it all before going to the next step! Don't worry, we re-purpose the schleem for other uses.
+                    </p>
+                    <p>After we stretch the Dinglebop over and into the grumbo to get the right shape, we need to rub it with some fleeb juice. To do this, we grab the fleeb and rub it all over the tip of the Dinglebop.
+                    </p>
+                    <p>Our Plumbus is almost ready but its still trapped in the Grumbo. We chisel the Grumbo away so we can send it on to it's new home.
+                    </p>
+                    <p>And that is how a Plumbus is made! Would you like to purchase one?</p>
+                    </div>
+            </section>
+            <section id="plumbus-section">
+                <div class="card-title">
+                    <h2>Plumbus gallery</h2>
+                </div>
+                <div class="card-content" id="plumbus-section-wrapper">
+                    <img src="image-3.avif" class="plumbus-img">
+                    <img src="Everybody_has_a_Plumbus.png" class="plumbus-img">
+                    <img src="image-1.jpg" class="plumbus-img">
+                    <img src="image-1.jpg" class="plumbus-img">
+                </div>
+            </section>
+            <section id="form-section">
+                <div class="card-title">
+                    <h2>Get your plumbus now!</h2>
+                </div>
+                <div class="card-content">
+                    <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                        <div class="form-item">
+                            <label for="email">Email <input id="email" name="email" type="email" placeholder="jerry.smith@gmail.com"></label>
+                        </div>
+                        <div class="form-item">
+                            <label for="name">Name <input id="name" name="name" type="text" placeholder="Jerry Smith"></label>
+                        </div>
+                        <div class="form-item">
+                            <label for="quantity" width="5">I want to order <input id="quantity" name="quantity" type="text" inputmode="numeric" placeholder="6"> plumbuses</label>
+                        </div>
+                        <div class="form-item">
+                            <input id="submit" type="submit" name="Submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
